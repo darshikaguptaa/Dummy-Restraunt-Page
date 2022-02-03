@@ -3,13 +3,13 @@ function createMenu(){
     menuDiv.classList.add('menu');
     
     menuDiv.appendChild(foodItem('Margarita',"Your Pizza !!" ));
-    menuDiv.appendChild(foodItem('Veg-Loaded-Pizza',"Your Pizza !!" ));
-    menuDiv.appendChild(foodItem('White-Sauce-Pasta',"Your Pasta !!" ));
-    menuDiv.appendChild(foodItem('Red-Sauce-Pasta',"Your Pasta !!" ));
-    menuDiv.appendChild(foodItem('Veg-Burger',"Your Veb Loaded Burger with extra patty" ));
-    menuDiv.appendChild(foodItem('Non-Veg-Burger',"Delicious Chicken Burger with extra patty" ));
-    menuDiv.appendChild(foodItem('French-Fries',"Your Fries !!" ));
-    menuDiv.appendChild(foodItem('Grilled-Sandwich',"Your Fries !!" ));
+    menuDiv.appendChild(foodItem('Veg Loaded Pizza',"Your Pizza !!" ));
+    menuDiv.appendChild(foodItem('White Sauce Pasta',"Your Pasta !!" ));
+    menuDiv.appendChild(foodItem('Red Sauce Pasta',"Your Pasta !!" ));
+    menuDiv.appendChild(foodItem('Veg Burger',"Your Veb Loaded Burger with extra patty" ));
+    menuDiv.appendChild(foodItem('Non Veg Burger',"Delicious Chicken Burger with extra patty" ));
+    menuDiv.appendChild(foodItem('French Fries',"Your Fries !!" ));
+    menuDiv.appendChild(foodItem('Grilled Sandwich',"Your Fries !!" ));
 
     return menuDiv
 }

@@ -4,14 +4,14 @@ function createContact(){
 
     const phoneNumberHead = document.createElement('h2')
     phoneNumberHead.classList.add('animate')
-    phoneNumberHead.textContent = 'Our Phone Number:'
+    phoneNumberHead.textContent = 'Phone Number:'
     const phoneNumber = document.createElement('h2')
     phoneNumber.textContent = ` 📞999-888-777`
     phoneNumber.classList.add('animate')
     phoneNumber.classList.add('align')
 
     const eMailHead = document.createElement('h2')
-    eMailHead.textContent = 'Our Email Address: '
+    eMailHead.textContent = 'Email Address: '
     eMailHead.classList.add('animate')
     const eMail = document.createElement('h2')
     eMail.textContent = '✉ xyz@gmail.com'
@@ -19,7 +19,7 @@ function createContact(){
     eMail.classList.add('align')
     
     const addressHead = document.createElement('h2')
-    addressHead.textContent = 'Our  Address: '
+    addressHead.textContent = 'Address: '
     addressHead.classList.add('animate')
     const address = document.createElement('h2')
     address.textContent = ' 🏠 X-Street House number : y'
@@ -27,7 +27,7 @@ function createContact(){
     address.classList.add('align')
     
     const instaHead = document.createElement('h2')
-    instaHead.textContent = 'Our  Instagram: '
+    instaHead.textContent = 'Instagram: '
     instaHead.classList.add('animate')
     const insta = document.createElement('h2')
     insta.textContent = ' @restraunt_name'

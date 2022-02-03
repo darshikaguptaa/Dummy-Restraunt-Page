@@ -43,7 +43,7 @@ function createNav(){
 
     const contactButton = document.createElement('button');
     contactButton.classList.add('button-nav');
-    contactButton.textContent = 'Contact Us';
+    contactButton.textContent = 'Contact';
     contactButton.addEventListener('click',()=>{
         selectButton(contactButton)
         showContact()
